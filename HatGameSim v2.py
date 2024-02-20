@@ -32,7 +32,7 @@ plt.show()
 
 """
 
-res = st.goodness_of_fit(st.lognorm, finals, statistic='ks')
+res = st.goodness_of_fit(st.lognorm, finals, statistic='ad')
 
 print("Anderson-Darling statistic = ", res.statistic)
 print("p-value = ", res.pvalue)
